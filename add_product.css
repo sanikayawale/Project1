@@ -1,0 +1,93 @@
+h2{
+    margin-top: 30px;
+    /* border: solid black 1px; */
+    width: 20%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    /* background-color: rgb(240, 245, 245); */
+    position: relative; /* Ensure z-index works */
+    /* z-index: 1;  */
+    /* Ensure the container appears above the overlay */
+  }
+    .container{
+        position: relative; /* Ensure z-index works */
+       z-index: 1; /* Ensure the container appears above the overlay */
+        /* border: solid black 1px; */
+        width: 700px;
+        padding: 20px 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       display: flex;
+       flex-direction: column;
+       background-color: rgb(240, 245, 245);
+       
+       /* margin-top: 120px; */
+    }
+    label{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .div1, .div2, .div3,.div5{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .div4{
+        margin-left: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .subdiv1, .subdiv2{
+        /* display: flex; */
+        align-items: center;
+    }
+    input[type="text"],input[type="date"],input[type="number"]{
+        height: 30px;
+        width: 250px;
+        /* border-radius: 5px; */
+        /* border: 1px rgb(113, 110, 110) solid; */
+        font-size: 15px;
+    }
+    textarea{
+        width: 500px;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 5px 5px;
+    }
+    input[type="file"]{
+       font-size: 15px;
+    }
+
+    select{
+        height:30px;
+        width: 170px;
+        border-radius:5px;
+    }
+    input[type="submit"]{
+        width: 25%;
+        height: 35px;
+      
+       margin:auto;
+       
+        font-size: 18px;
+       border-radius: 5px;
+        background-color:rgba(21, 172, 122, 0.527);
+        cursor: pointer;
+        justify-content: center;
+    align-items: center;
+    display: flex;
+    }   
+    
+    input[type="submit"]:hover{
+        box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    }
+    .check{
+        margin-bottom:20px;
+        
+    }
+    
+    
+   
